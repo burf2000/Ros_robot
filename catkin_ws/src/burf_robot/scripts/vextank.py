@@ -22,7 +22,7 @@ from std_msgs.msg import Int16,Int32, Int64, Float32, String, Header, UInt64
 
 # Model dependend settings
 PI = 3.141
-ROBOT_WIDTH = 0.9
+ROBOT_WIDTH = 0.3
 WHEEL_DIAMETER = 0.105
 WHEEL_RADIUS = WHEEL_DIAMETER / 2
 WHEEL_PERIMETER = 2 * PI * WHEEL_RADIUS
