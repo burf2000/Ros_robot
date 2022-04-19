@@ -9,6 +9,9 @@ source /opt/ros/kinetic/setup.bash
 cd ~/catkin_ws/
 catkin_make
 
+For Hector Slam run
+sudo apt-get install ros-kinetic-hector-slam
+
 source devel/setup.bash
 
 export ROS_MASTER_URI=http://127.0.0.1:11311 (or ip/host of computer)
